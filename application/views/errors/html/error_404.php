@@ -1,64 +1,35 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>404 Page Not Found</title>
-<style type="text/css">
-
-::selection { background-color: #E13300; color: white; }
-::-moz-selection { background-color: #E13300; color: white; }
-
-body {
-	background-color: #fff;
-	margin: 40px;
-	font: 13px/20px normal Helvetica, Arial, sans-serif;
-	color: #4F5155;
-}
-
-a {
-	color: #003399;
-	background-color: transparent;
-	font-weight: normal;
-}
-
-h1 {
-	color: #444;
-	background-color: transparent;
-	border-bottom: 1px solid #D0D0D0;
-	font-size: 19px;
-	font-weight: normal;
-	margin: 0 0 14px 0;
-	padding: 14px 15px 10px 15px;
-}
-
-code {
-	font-family: Consolas, Monaco, Courier New, Courier, monospace;
-	font-size: 12px;
-	background-color: #f9f9f9;
-	border: 1px solid #D0D0D0;
-	color: #002166;
-	display: block;
-	margin: 14px 0 14px 0;
-	padding: 12px 10px 12px 10px;
-}
-
-#container {
-	margin: 10px;
-	border: 1px solid #D0D0D0;
-	box-shadow: 0 0 8px #D0D0D0;
-}
-
-p {
-	margin: 12px 15px 12px 15px;
-}
-</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+	<meta name="author" content="GeeksLabs">
+	<meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+	<link rel="shortcut icon" href="img/logo.png">
+	<title>404 | Error</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/bootstrap-theme.css" rel="stylesheet">
+	<link href="../css/elegant-icons-style.css" rel="stylesheet" />
+	<link href="../css/font-awesome.css" rel="stylesheet" />
+	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/style-responsive.css" rel="stylesheet" />
 </head>
+
 <body>
-	<div id="container">
-		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
+	<div class="page-404">
+		<p class="text-404">404</p>
+		<h2>OOPS!</h2>
+		<p>Halaman yang Anda cari tidak ditemukan. <br><a href="http://smkniu.sch.id">Kembali ke Beranda</a></p>
 	</div>
+	<div class="text-center">
+		<div class="credits"><br>
+			Hak Cipta 2020 © <a href="http://smkniu.sch.id/">SMKN Ihya' Ulumudin Singojuruh</a>
+		</div>
+	</div>
+
+
 </body>
+
 </html>
